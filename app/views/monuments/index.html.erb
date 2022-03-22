@@ -1,1 +1,12 @@
-<h1>Coucou je suis l'index</h1>
+<div class="monuments-cards">
+  <% @monuments.each do |monument| %>
+  <div class="card-product">
+    <img src="<%= monument.image %>" />
+    <div class="card-product-infos">
+      <h2> <%= monument.name %></h2>
+      <p> <%= monument.description %> </p>
+    </div>
+  </div>
+  <% end %>
+
+</div>
