@@ -1,10 +1,12 @@
 class MonumentsController < ApplicationController
 
   def index
+    @unable_nav = true
     @monuments = Monument.all
   end
 
   def show
+    @unable_nav = true
     @monument = Monument.find(params[:id])
   end
 

@@ -1,1 +1,12 @@
 // Specific CSS for your home-page
+.home {
+  background-image: url("https://images.unsplash.com/photo-1455620611406-966ca6889d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQzfHxtb251bWVudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60");
+  height: 100vh;
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
